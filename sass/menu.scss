@@ -113,13 +113,15 @@ header{
         background: linear-gradient(-8deg, $color-primary, $color-secondary);
         border-radius: 40px;
         font-weight: bold;
+        transition: .5s;
+        cursor:pointer;
         display: block;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
     }
 
     .btn_commander:hover{
         filter: brightness(110%);
-        transition: .5s;
+        box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.87);
     }
 }
 

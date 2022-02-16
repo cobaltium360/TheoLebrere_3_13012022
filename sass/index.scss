@@ -105,6 +105,8 @@ input{
                 background: linear-gradient(-8deg, $color-primary, $color-secondary);
                 border-radius: 2.5rem;
                 font-weight: bold;
+                
+                transition: .5s;
                 box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
             }
         }
@@ -113,7 +115,7 @@ input{
 
 .reservation_texte_btn a:hover{
     filter: brightness(110%);
-    transition: .5s;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.87);
 }
 
 /*main -- Milieu*/
