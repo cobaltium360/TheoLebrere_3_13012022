@@ -58,7 +58,7 @@ input::placeholder{
 .fa-map-marker-alt{
     margin-top: -8px ;
 }
-input{
+.zone_de_recherche{
     border: none;
     background: transparent;
     margin: 1.5rem 0;
@@ -197,6 +197,7 @@ input{
         a{
             text-decoration: none;
             color:black;
+            display: block;
         }
 
         &_img{
@@ -248,9 +249,11 @@ input{
 .coeur{
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     margin-right: 1rem;
+    margin-bottom: 20px;
+    margin-top: -25px;
     z-index: 3;
     
     input{

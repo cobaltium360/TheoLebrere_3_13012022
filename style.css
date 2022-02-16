@@ -64,7 +64,7 @@ input::placeholder {
   margin-top: -8px;
 }
 
-input {
+.zone_de_recherche {
   border: none;
   background: transparent;
   margin: 1.5rem 0;
@@ -192,6 +192,7 @@ input {
 .container_bas .card a {
   text-decoration: none;
   color: black;
+  display: block;
 }
 .container_bas .card_img {
   width: 100%;
@@ -240,9 +241,11 @@ input {
 .coeur {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
   margin-right: 1rem;
+  margin-bottom: 20px;
+  margin-top: -25px;
   z-index: 3;
 }
 .coeur input {
