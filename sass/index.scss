@@ -48,6 +48,23 @@
     }
 }
 
+input::placeholder{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+.fa-map-marker-alt{
+    margin-top: -8px ;
+}
+input{
+    border: none;
+    background: transparent;
+    margin: 1.5rem 0;
+    height: 1.7rem;
+}
+
 .localisation{
     display: flex;
     justify-content: center;
@@ -55,6 +72,7 @@
     border: solid 1px #eaeaea;
     margin-bottom: 0;
     box-shadow: inset 5px 11px 5px -10px rgb(173, 172, 172) ;
+    align-items: center;
 
     h3{
         margin-left:-10px;
