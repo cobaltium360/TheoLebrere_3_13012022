@@ -246,7 +246,6 @@ input::placeholder {
   margin-right: 1rem;
   margin-bottom: 20px;
   margin-top: -25px;
-  z-index: 3;
 }
 .coeur input {
   position: absolute;
@@ -510,7 +509,7 @@ header {
 .coeur_menu {
   display: flex;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   margin-right: 2rem;
 }
 
